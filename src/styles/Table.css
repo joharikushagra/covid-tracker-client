@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+
+.container__heading{
+  color:rgb(107, 107, 107);
+  font-weight: bold;
+}
+
+.container__input {
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.container__input input {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.container__table {
+  box-shadow: 2px 4px 4px grey;
+  overflow-y: scroll;
+  height: 450px;
+}
+.container__no-result {
+  height: 450px;
+}
+
+table,
+th,
+td {
+  padding: 8px;
+  border: 1px solid rgb(192, 192, 192);
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(238, 238, 238);
+}
